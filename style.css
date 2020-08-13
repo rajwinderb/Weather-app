@@ -1,5 +1,86 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #FCFBFF;
+    color: #090046;
+}
+
+div.all{
+    height: 460px;
+    width: 800px;
+    margin: 68px auto;
+    background: linear-gradient(180deg, #FCE7CD 0%, 
+    rgba(255, 255, 255, 0) 100%), #FFC1A7;
+    box-shadow: 0px 0px 15px -6px rgba(4,0,31,0.5);
+    border-radius: 5px;
+}
+
+div.search{
+    position: relative;
+    top: 25px;
+    left: 535px;
+}
+
+section.now{
+    margin-top: 25px;
+}
+
+div.info{
+    text-align: right;
+    margin-right: 50px;
+}
+
 h1{
+    font-size: 64px;
+}
+
+h1.today, h1.temp-and-icon, p{
+    margin-left: 45px;
+}
+
+h1.today{
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+h1.temp-and-icon{
+    font-size: 96px;
+    margin-top: 5px;
+}
+
+h1.city{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 36px;
+}
+
+span.now-temp{
+    font-size: 72px;
+}
+
+span.c-f{
+    font-size: 28px;
+    position: relative;
+    top: -34px;
+    left: -10px;
+}
+
+span.c-f a{
+    color: #090046;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+span.c-f a:hover{
+    color: #534da8;
+}
+
+section.five-day{
     text-align: center;
-    color: plum;
-    font-size: larger;
+    margin-top: 5px;
+}
+
+div.icons{
+    font-size: 48px;
 }
